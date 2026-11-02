@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Output images (bisa di-regenerate)
+confusion_matrix.png
+confusion_matrix_plot.png
+
+# Hasil training log
+hasil train.txt

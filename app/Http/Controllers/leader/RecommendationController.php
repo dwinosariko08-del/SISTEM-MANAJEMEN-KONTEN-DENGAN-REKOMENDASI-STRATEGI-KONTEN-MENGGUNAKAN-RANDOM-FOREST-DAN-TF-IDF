@@ -137,7 +137,7 @@ class RecommendationController extends Controller
 
             $response = Http::timeout(10)
                 ->post(
-                    env('AI_API_URL', 'http://127.0.0.1:5000') . '/api/predict',
+                    env('AI_API_URL', 'https://sistem-manajemen-konten.vercel.app') . '/api/predict',
                     [
 
                         'platform' => $platform,

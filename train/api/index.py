@@ -18,3 +18,4 @@ class handler(BaseHTTPRequestHandler):
                 }
             }).encode()
         )
+
